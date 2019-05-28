@@ -13,6 +13,7 @@ I want people to be able to create lists. Then they should be able to add items 
     items:
         ☐ belongs to a list
 
-    ☐ i need a model
-    ☐ i need a controller
-    ☐ i should generate a resource
+    i should generate a resource:
+    `rails generate resource list name`
+        ☐ i need a model
+        ☐ i need a controller
