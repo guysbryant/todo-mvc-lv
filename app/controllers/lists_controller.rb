@@ -10,4 +10,8 @@ class ListsController < ApplicationController
     def show 
         @list = List.find(params[:id])
     end
+
+    def create 
+        raise params.inspect
+    end
 end
