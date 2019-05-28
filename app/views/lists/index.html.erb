@@ -1,7 +1,10 @@
 <section class="todoapp">
     <header class="header">
         <h1>TODO Lists</h1>
-        <input class="new-todo" placeholder="Make a new list" autofocus="">
+        <%= form_for(@list) do |f| %>
+            <%= f.label :name %>
+            <%= f.text_field :name %>
+        <% end %>
     </header>
 
     <section class="main">
