@@ -4,9 +4,12 @@ I want people to be able to create lists. Then they should be able to add items 
     ✔ / - See stubbed out, static page with the theme @done(19-05-27 23:02)
     ListsController:
         ☐ Allow people to CRUD lists
-            ☐ create a list
-            ☐ see all their lists
-            ☐ show a list
+            ✔ create a list @done(19-05-28 17:29)
+            ✔ see all their lists @done(19-05-28 17:29)
+            ✔ show a list @done(19-05-28 17:29)
+            ☐ delete lsit
+
+    ☐ Add items to a list
 
     lists:
         ☐ has many items
