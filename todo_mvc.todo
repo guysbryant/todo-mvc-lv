@@ -1,0 +1,18 @@
+TODO-MVC:
+I want people to be able to create lists. Then they should be able to add items to those lists. They should be able to navigate many lists and see each list's items.
+    ✔ Integrate Basic Theme to Asset Pipeline @done(19-05-27 23:02)
+    ✔ / - See stubbed out, static page with the theme @done(19-05-27 23:02)
+    ListsController:
+        ☐ Allow people to CRUD lists
+            ☐ create a list
+            ☐ see all their lists
+            ☐ show a list
+
+    lists:
+        ☐ has many items
+    items:
+        ☐ belongs to a list
+
+    ☐ i need a model
+    ☐ i need a controller
+    ☐ i should generate a resource
