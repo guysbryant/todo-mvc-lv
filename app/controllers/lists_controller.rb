@@ -12,6 +12,10 @@ class ListsController < ApplicationController
     end
 
     def create 
-        raise params.inspect
+        @list = List.new
+        @list.name = params[:list][:name]
+        @list.save
+
+        redirect_to @list
     end
 end
