@@ -9,7 +9,7 @@
             <% @lists.each do |list| %>
                 <li>
                     <div class="view">
-                        <label><a href="#"><%= list.name %></a></label>
+                        <label><%= link_to list.name, list %></label>
                     </div>
                 </li>
             <% end %>
